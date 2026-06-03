@@ -1,0 +1,26 @@
+nohup: ignoring input
+2026-04-29 00:48:42.267445: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-29 00:48:43.771259: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-04-29 00:48:48.260532: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+======================================================================
+GPU CHECK
+======================================================================
+TensorFlow version: 2.20.0
+GPUs detected: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+GPU memory growth enabled.
+
+======================================================================
+LOADING FINAL 17 PREDICTION FILES
+======================================================================
+First train file: /mnt/d/EEG_FYP_DATA/processed/group1/chb01/chb01_01_processed.npz
+First val file: /mnt/d/EEG_FYP_DATA/processed/group1/chb03/chb03_01_processed.npz
+First test file: /mnt/d/EEG_FYP_DATA/processed/group1/chb05/chb05_01_processed.npz
+Train files: 455
+Validation files: 67
+Test files: 138
+
+======================================================================
+BUILDING BALANCE PLAN
+======================================================================
+Loading cached balance plan...

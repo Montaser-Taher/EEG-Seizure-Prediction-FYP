@@ -1,0 +1,19 @@
+{
+    "model_name": "baseline_model",
+    "threshold": 0.2,
+    "validation_samples": 10720,
+    "validation_preictal": 2680,
+    "validation_interictal": 8040,
+    "accuracy": 0.7930037313432836,
+    "precision": 0.8466165413533835,
+    "recall": 0.21007462686567163,
+    "f1_score": 0.33662182361733933,
+    "pr_auc": 0.5768585023828172,
+    "true_positive": 563,
+    "false_positive": 102,
+    "false_negative": 2117,
+    "true_negative": 7938,
+    "min_probability": 3.069926322041283e-07,
+    "max_probability": 0.997559666633606,
+    "mean_probability": 0.04473820701241493
+}

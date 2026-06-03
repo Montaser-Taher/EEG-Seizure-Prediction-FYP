@@ -24,7 +24,7 @@ data/
 *.pb
 
 # Generated outputs
-results/
+
 plots/
 
 

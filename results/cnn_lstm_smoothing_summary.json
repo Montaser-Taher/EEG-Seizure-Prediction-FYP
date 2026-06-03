@@ -1,0 +1,26 @@
+{
+    "raw_threshold": 0.8,
+    "smooth_threshold": 0.65,
+    "smoothing_window": 5,
+    "consecutive_count": 2,
+    "raw_results": {
+        "tn": 2690,
+        "fp": 5302,
+        "fn": 271,
+        "tp": 2393,
+        "accuracy": 0.47700825825781057,
+        "precision": 0.31098115659478753,
+        "recall": 0.8982732732699014,
+        "f1_score": 0.46201370406532044
+    },
+    "smoothed_results": {
+        "tn": 2812,
+        "fp": 5180,
+        "fn": 927,
+        "tp": 1737,
+        "accuracy": 0.426895645645245,
+        "precision": 0.251120427930821,
+        "recall": 0.6520270270245795,
+        "f1_score": 0.3625926272338241
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "model_name": "baseline_model",
+    "evaluation_split": "test",
+    "threshold": 0.2,
+    "test_samples": 192784,
+    "test_preictal": 6597,
+    "test_interictal": 186187,
+    "accuracy": 0.7725744875093369,
+    "precision": 0.027454264037958944,
+    "recall": 0.1640139457329089,
+    "f1_score": 0.04703529820900713,
+    "pr_auc": 0.031228319185320784,
+    "true_positive": 1082,
+    "false_positive": 38329,
+    "false_negative": 5515,
+    "true_negative": 147858,
+    "min_probability": 8.865394107715474e-08,
+    "max_probability": 0.9999954700469971,
+    "mean_probability": 0.16769713163375854
+}

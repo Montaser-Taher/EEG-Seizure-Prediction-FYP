@@ -1,0 +1,2 @@
+model_name,threshold,validation_samples,validation_preictal,validation_interictal,accuracy,precision,recall,f1_score,pr_auc,true_positive,false_positive,false_negative,true_negative,min_probability,max_probability,mean_probability
+baseline_model,0.13,10720,2680,8040,0.7556902985074627,0.9178082191780822,0.025,0.048674173628768615,0.5512601837232269,67,6,2613,8034,4.948798277837341e-07,0.8812316656112671,0.0050394656136631966

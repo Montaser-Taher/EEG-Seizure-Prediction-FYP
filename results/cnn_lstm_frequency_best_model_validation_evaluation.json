@@ -1,0 +1,13 @@
+{
+    "manual_threshold": 0.75,
+    "threshold_selection_method": "fixed_threshold",
+    "fixed_threshold": 0.75,
+    "tn": 4988,
+    "fp": 3004,
+    "fn": 1778,
+    "tp": 886,
+    "accuracy": 0.5512387387387387,
+    "precision": 0.22776349614337338,
+    "recall": 0.33258258258133416,
+    "f1_score": 0.2703692353328165
+}

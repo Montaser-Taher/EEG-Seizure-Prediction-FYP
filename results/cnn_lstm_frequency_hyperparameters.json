@@ -1,0 +1,37 @@
+{
+    "model_name": "cnn_lstm_frequency",
+    "input_shapes": {
+        "X": [
+            5,
+            1280,
+            17
+        ],
+        "freq": [
+            5,
+            323
+        ]
+    },
+    "training": {
+        "learning_rate": 1e-05,
+        "threshold": 0.75,
+        "epochs": 30,
+        "steps_per_epoch": 2664,
+        "validation_steps": 1332,
+        "class_weight_preictal": 1.2,
+        "class_weight_interictal": 1.0,
+        "monitor": "val_pr_auc",
+        "early_stopping_patience": 1,
+        "reduce_lr_patience": 2,
+        "min_lr": 1e-05
+    },
+    "sequence": {
+        "sequence_length": 5,
+        "window_seconds": 5,
+        "context_seconds": 25
+    },
+    "cache_paths": {
+        "train_cache_dir": "/mnt/c/Users/MSI/Desktop/EEG_FYP/data/cached_train_lstm_seq5_batches_with_freq",
+        "val_cache_dir": "/mnt/c/Users/MSI/Desktop/EEG_FYP/data/cached_val_lstm_seq5_batches_with_freq",
+        "test_cache_dir": "/mnt/d/EEG_FYP_DATA/data/cached_test_lstm_seq5_batches_with_freq_fast"
+    }
+}

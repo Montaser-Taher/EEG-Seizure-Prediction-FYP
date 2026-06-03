@@ -1,0 +1,64 @@
+{
+    "model_name": "baseline_model",
+    "model_type": "Conv1D CNN",
+    "task": "binary seizure prediction",
+    "class_0": "interictal",
+    "class_1": "preictal",
+    "uses_frequency_features": false,
+    "input_domain": "time-domain EEG only",
+    "input_shape": [
+        1280,
+        17
+    ],
+    "window_size_sec": 5,
+    "target_sampling_frequency": 256,
+    "channels": [
+        "FP1-F7",
+        "F7-T7",
+        "T7-P7",
+        "P7-O1",
+        "FP1-F3",
+        "F3-C3",
+        "C3-P3",
+        "P3-O1",
+        "FP2-F4",
+        "F4-C4",
+        "C4-P4",
+        "P4-O2",
+        "FP2-F8",
+        "F8-T8",
+        "P8-O2",
+        "FZ-CZ",
+        "CZ-PZ"
+    ],
+    "learning_rate": 0.0001,
+    "l2_regularization": 0.0001,
+    "epochs": 30,
+    "threshold": 0.2,
+    "conv_filters": [
+        32,
+        64,
+        64
+    ],
+    "kernel_sizes": [
+        7,
+        5,
+        3
+    ],
+    "dropout_values": [
+        0.3,
+        0.35,
+        0.4,
+        0.45
+    ],
+    "optimizer": "Adam",
+    "loss": "binary_crossentropy",
+    "monitor_metric": "val_pr_auc",
+    "early_stopping_patience": 2,
+    "reduce_lr_patience": 2,
+    "class_weight_interictal": 1.0,
+    "class_weight_preictal": 2.0,
+    "training_data": "training batches only",
+    "validation_data": "validation batches for checkpointing and early stopping",
+    "testing_data": "unseen test patients used once after training"
+}
