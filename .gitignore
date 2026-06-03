@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+eeg_gpu_env/
+eeg_interface_env/
+
+# Dataset and EEG data
+data/
+*.edf
+*.npz
+*.zip
+
+# Trained model weights
+*.h5
+*.keras
+*.ckpt
+*.pb
+
+# Generated outputs
+results/
+plots/
+model_results/
+
+# Cache/temp files
+*.tmp
+*.tmp.npz
+*.log
+
+# Streamlit config
+.streamlit/
+
+# Jupyter temp files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
